@@ -13,3 +13,5 @@ rm -rf ~/.tmux
 rm -rf ~/.tmux.conf
 cp ~/.dotfiles/tmux/.tmux.conf $HOME
 cp -r ~/.dotfiles/tmux/.tmux $HOME
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+tmux source-file ~/.tmux.conf
