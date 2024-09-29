@@ -132,7 +132,7 @@ tre() { command tre "$@" -e && source "/tmp/tre_aliases_$USER" 2>/dev/null; }
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 
-eval "$(/home/rafaeloc/.local/bin/mise activate zsh)"
+# eval "$(/home/rafaeloc/.local/bin/mise activate zsh)"
 
 
 # Set up fzf key bindings and fuzzy completion
@@ -173,7 +173,10 @@ header="#6272a4"
 export FZF_DEFAULT_OPTS="--color=fg:${fg},bg:${bg},hl:${hl},fg+:${fg},bg+:${bg_highlight},hl+:${hl},info:${info},prompt:${prompt},pointer:${pointer},marker:${marker},spinner:${spinner},header:${header}"
 
 # fzf git
-source ~/fzf-git.sh/fzf-git.sh
+# source ~/fzf-git.sh/fzf-git.sh
+
+# Tmux
+tmux source ~/.config/tmux/tmux.conf
 
 # Bat theme
 export BAT_THEME="Dracula"
