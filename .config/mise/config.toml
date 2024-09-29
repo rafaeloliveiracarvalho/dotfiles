@@ -1,0 +1,9 @@
+[tools]
+node = "latest"
+bun = "latest"
+go = "latest"
+rust = "latest"
+java = "openjdk-21"
+python = "latest"
+deno = "latest"
+kotlin = "latest"
