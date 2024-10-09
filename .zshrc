@@ -123,6 +123,7 @@ path+=("$HOME/.local/share/tre/")
 path+=("$HOME/.local/share/zellij/")
 path+=("$HOME/.local/share/JetBrains/Toolbox/scripts/")
 path+=("/usr/local/bin/cursor")
+path+=("$HOME/.cargo/bin")
 
 export PATH
 
