@@ -72,6 +72,7 @@ ZSH_THEME="spaceship"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
+  tmux
   fast-syntax-highlighting
   zsh-autosuggestions
 )
